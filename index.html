@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sachinkumar | Advanced Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- Font Awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+
+</head>
+<body>
+
+<!-- Particle Background -->
+<div id="particles-js"></div>
+
+<!-- ===== NAVBAR ===== -->
+<header>
+    <nav class="navbar">
+        <div class="logo">Sachin<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#" id="certificateBtn">
+    <i></i> Certificates
+</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- ===== HERO ===== -->
+<section id="home" class="hero">
+    <div class="hero-content" data-aos="fade-right">
+        <h1>Hello, I'm <span>Sachinkumar</span></h1>
+        <h2 class="typing"></h2>
+        <p>Creating next-level modern digital experiences.</p>
+        <a href="#projects" class="btn">Explore Work</a>
+    </div>
+    <div class="hero-img"><img src="https://res.cloudinary.com/dmb3xhxun/image/upload/v1771509861/DSC09478_ejvx90.jpg"></div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about" class="section" data-aos="fade-up">
+    <h2 class="section-title">About Me</h2>
+    <p>I am a B.Tech CSE student with a focus on front-end development and AI fundamentals. I enjoy turning ideas into pixel-perfect products with great UX. I work with HTML, CSS, JavaScript and Python and I love learning new tools,
+        I build high-performance, visually stunning websites with modern technologies.</p>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section id="skills" class="section">
+    <h2 class="section-title" data-aos="zoom-in">Skills</h2>
+    <div class="skills-grid">
+        <div class="skill-card" data-aos="flip-left">
+            <i class="fa-brands fa-html5 fa-2xl" style="color: rgb(247, 46, 46);"></i>
+        </div>
+        
+        <div class="skill-card" data-aos="flip-left" data-aos-delay="100">
+            <i class="fa-brands fa-css3-alt fa-2xl" style="color: rgb(223, 122, 39);"></i>
+        </div>
+        <div class="skill-card" data-aos="flip-left" data-aos-delay="100">
+            <i class="fa-brands fa-python fa-2xl" style="color: rgba(7, 253, 44, 0.779);"></i>
+        </div>
+        <div class="skill-card" data-aos="flip-left" data-aos-delay="200">
+            <img src="https://download.logo.wine/logo/C%2B%2B/C%2B%2B-Logo.wine.png" class="skill-card-1" alt="">
+        </div>
+        <div class="skill-card" data-aos="flip-left" data-aos-delay="300">
+            <i class="fa-brands fa-js fa-2xl" style="color: rgb(255, 212, 59);"></i>
+        </div>
+        <div class="skill-card" data-aos="flip-left" data-aos-delay="100">
+            <img src="https://www.citypng.com/public/uploads/preview/hd-mysql-logo-transparent-background-701751694771788209ydqoapx.png" class="skill-card-1 h-full p-3" alt="">
+        </div>
+    </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section id="projects" class="section">
+    <h2 class="section-title">Projects</h2>
+
+    <!-- Filter Buttons -->
+    <div class="filter-buttons" id="Certificate">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+        <button class="filter-btn" data-filter="Certificate">Certificate</button>
+    </div>
+
+    <!-- ===== CERTIFICATES ===== -->
+<section id="certificates" class="section hidden-section">
+    <h2 class="section-title">My Certificates</h2>
+
+    <div class="certificate-grid">
+
+        <div class="certificate-card">
+            <h3>NXTWAVE</h3>
+            <p>Indian's Biggest GenAI Buildthon</p>
+            <a href="https://res.cloudinary.com/dbc8rwc7y/image/upload/v1771605798/87EI16T33N_kpnoms.png" target="_blank" class="view-btn">
+                <i class="fas fa-eye"></i> View Certificate
+            </a>
+        </div>
+
+        <div class="certificate-card">
+            <h3>NXTWAVE</h3>
+            <p>Indian's Biggest GenAI Buildthon</p>
+            <a href="https://res.cloudinary.com/dbc8rwc7y/image/upload/v1761849504/LX9R803DDD_2_-1_s8euwh.png" target="_blank" class="view-btn">
+                <i class="fas fa-eye"></i> View Certificate
+            </a>
+        </div>
+
+        <div class="certificate-card">
+            <h3>WSCUBE TECH</h3>
+            <p>Fundamentals of AI-Enabled Full-Stack Development</p>
+            <a href="https://res.cloudinary.com/dbc8rwc7y/image/upload/v1771608832/Sachinkumar_Dadmi__WS_2025_M_23579_Certificate_page-0001_qmlgxy.jpg" target="_blank" class="view-btn">
+                <i class="fas fa-eye"></i> View Certificate
+            </a>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Project Grid -->
+    <div class="projects-grid">
+        <div class="project-card web" data-aos="fade-up">
+            <h3>Portfolio Website</h3>
+            <p>Modern responsive portfolio.</p>
+        </div>
+
+        <div class="project-card design" data-aos="fade-up">
+            <h3>UI Design Concept</h3>
+            <p>Creative UI/UX project.</p>
+        </div>
+
+         <div class="project-card Certificate" data-aos="fade-up">
+            <h3>All Certificates </h3>
+            <p>Learned advanced queries, joins, indexing, and database management concepts. </p>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="section" data-aos="fade-up">
+    <h2 class="section-title">Contact</h2>
+    <form class="contact-form">
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Message"></textarea>
+        <button type="submit" class="btn">Send</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Sachinkumar | Professional Portfolio</p>
+</footer>
+
+<!-- JS Libraries -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<!-- Custom JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
